@@ -1,11 +1,10 @@
 # PT
 ros openpose docker container
 
-So, this machine is pretty much bare bones ros and openpose on a cuda-8 docker image. I still didn't add submodules.
+So, this machine is pretty much bare bones ros and openpose on a cuda-8 docker image.
 
 
 ## TODO
 
-- init submodules
-- create catkin_ws (it will need the old cv_bridge, I think)
-- create repo to publish skeletons to ros
+- update catkin_ws (it will need the old cv_bridge, I think)
+- update repo to compile openpose with cuda and publish skeletons to ros
